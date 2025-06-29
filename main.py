@@ -37,6 +37,7 @@ check_and_update(local_path, github_raw_url)
 
 os.system("cls||clear")
 time.sleep(3)
+
 import socket
 import requests
 from datetime import datetime
