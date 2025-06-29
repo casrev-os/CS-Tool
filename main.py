@@ -29,7 +29,6 @@ def check_and_update(local_path, github_raw_url):
     except Exception as e:
         print("💥 Hata:", e)
 
-time.sleep(3)
 # 🔧 Örnek kullanım
 github_raw_url = "https://raw.githubusercontent.com/ca>
 local_path = os.path.realpath(__file__)
@@ -37,7 +36,7 @@ local_path = os.path.realpath(__file__)
 check_and_update(local_path, github_raw_url)
 
 os.system("cls||clear")
-
+time.sleep(3)
 import socket
 import requests
 from datetime import datetime
