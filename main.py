@@ -1,5 +1,6 @@
 import requests
 import os
+import time
 
 def check_and_update(local_path, github_raw_url):
     try:
