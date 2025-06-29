@@ -22,21 +22,22 @@ def check_and_update(local_path, github_raw_url):
         if local_code != remote_code:
             with open(local_path, "w", encoding="utf-8>
                 f.write(remote_code)
-            print("🟩 Kod güncellendi Başlatılıyor...">
+            print("🟩 Kod güncellendi Programı yeniden>
+            exit()
         else:
             print("🟦 Kod zaten güncel Başlatılıyor...>
 
     except Exception as e:
         print("💥 Hata:", e)
 
+
 # 🔧 Örnek kullanım
 github_raw_url = "https://raw.githubusercontent.com/ca>
 local_path = os.path.realpath(__file__)
 
 check_and_update(local_path, github_raw_url)
-
-os.system("cls||clear")
 time.sleep(3)
+os.system("cls||clear")
 
 import socket
 import requests
@@ -89,7 +90,7 @@ def scan_common_ports(ip):
             if port:
                 open_ports.append(port)
 
-    return sorted(open_ports)
+    return
 
-def main():
-    print("\0 
+
+  
